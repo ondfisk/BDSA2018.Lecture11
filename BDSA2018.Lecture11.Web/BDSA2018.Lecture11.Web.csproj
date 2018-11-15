@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <LangVersion>7.1</LangVersion>
     <WebProject_DirectoryAccessLevelKey>1</WebProject_DirectoryAccessLevelKey>
-    <UserSecretsId>36d7d7cd-98e0-434d-a05e-e6a649c26295</UserSecretsId>
+    <UserSecretsId>2fe616bf-5e10-467b-9db2-c9281cb854e5</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
