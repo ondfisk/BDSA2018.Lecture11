@@ -11,20 +11,25 @@ variables:
 
 steps:
 - task: DotNetCoreInstaller@0
+  displayName: Install .NET Core 2.1.500
   inputs:
     version: '2.1.500'
 
 - script: dotnet restore
+  displayName: Restore packages
 
 - script: dotnet build --configuration $(buildConfiguration)
+  displayName: Build
 
 - task: DotNetCoreCLI@2
+  displayName: Test
   inputs:
     command: test
     projects: '**/*Tests/*.csproj'
     arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
 
 - task: DotNetCoreCLI@2
+  displayName: Publish
   inputs:
     command: publish
     publishWebProjects: True
