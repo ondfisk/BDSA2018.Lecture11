@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace BDSA2018.Lecture11.Models.Tests
+namespace BDSA2018.Lecture11.Services.Tests
 {
     public class CharacterRepositoryTests
     {

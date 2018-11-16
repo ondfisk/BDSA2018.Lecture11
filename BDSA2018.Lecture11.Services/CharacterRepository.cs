@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BDSA2018.Lecture11.Models
+namespace BDSA2018.Lecture11.Services
 {
     public class CharacterRepository : ICharacterRepository
     {

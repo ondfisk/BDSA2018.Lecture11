@@ -7,8 +7,6 @@ pool:
 variables:
   buildConfiguration: 'Release'
 
-
-
 steps:
 - task: DotNetCoreInstaller@0
   displayName: Install .NET Core 2.1.500

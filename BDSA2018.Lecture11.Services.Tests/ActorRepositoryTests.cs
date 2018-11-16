@@ -1,15 +1,13 @@
 using BDSA2018.Lecture11.Entities;
-using BDSA2018.Lecture11.Models;
 using BDSA2018.Lecture11.Shared;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Data.Common;
-using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace BDSA2018.Lecture11.Models.Tests
+namespace BDSA2018.Lecture11.Services.Tests
 {
     public class ActorRepositoryTests
     {

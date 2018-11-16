@@ -2,7 +2,7 @@ using BDSA2018.Lecture11.Shared;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BDSA2018.Lecture11.Models
+namespace BDSA2018.Lecture11.Services
 {
     public interface ICharacterRepository
     {
